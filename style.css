@@ -32,13 +32,16 @@
 .text {
     position: relative;
     float: right;
-    right: 33px;
+    right: 10px;
+    top: 30px;
 }
 
 .attribution {
     font-family: 'Montserrat',sans-serif;
     font-size: 11px;
-    text-align: center; }
+    text-align: center;
+    padding-top: 100px;
+}
 
 .attribution a { color: hsl(228, 45%, 44%); }
 
@@ -56,6 +59,7 @@ p {
 h1 {
     font-family: 'Fraunces',serif;
     font-weight: 700;
+    color: hsl(0, 0%, 23%);
 }
 
 h2 {
@@ -82,7 +86,8 @@ h5 {
 .bt {
     position: relative;
     float: right;
-    left: 30px;
+    left: 19px;
+    top: 15px;
 }
 
 .myButton {
@@ -96,7 +101,7 @@ h5 {
 	font-family:'Montserrat',sans-serif;
 	font-size:12px;
 	font-weight:500;
-	padding:10px 60px;
+	padding:15px 70px;
 	text-decoration:none;
 	text-shadow:0px -1px 0px #038338;
 }
@@ -119,12 +124,21 @@ h5 {
 @media only screen and (max-width: 577.98px) {
     .box {
         width: 315px;
-        height: 615px;
+        height: 560px;
     }
     .img1 {
         display: none;
     }
     .text {
         bottom: 10px;
+        top: -15px;
+    }
+    h1 {
+        font-size: x-large;
+    }
+    .myButton {
+        float: left;
+        top: -25px;
+        position: relative;
     }
 }
